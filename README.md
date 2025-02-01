@@ -1,7 +1,7 @@
 
 # Proyecto de Predicción de Probabilidades de avistamiento con Flutter y Flask
 
-Este proyecto tiene como objetivo crear una aplicación móvil que realice predicciones sobre probabilidades de avistamiento en diferentes zonas usando un modelo de aprendizaje automático entrenado con un conjunto de datos. El backend está implementado en Flask con un modelo Random Forest y el frontend se desarrollará con Flutter.
+Este proyecto tiene como objetivo crear una aplicación móvil que consuma un api creada en phyton que retornara las probabilidades de avistamiento en diferentes zonas usando un modelo de aprendizaje automático entrenado con un conjunto de datos. El backend está implementado en Flask con un modelo Random Forest y el frontend se desarrollará con Flutter.
 
 
 # Tecnologías Utilizadas
