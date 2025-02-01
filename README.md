@@ -118,3 +118,45 @@ if __name__ == '__main__':
 
 ```
 
+3. Iniciar el servidor: Una vez que el código esté listo, puedes iniciar el servidor Flask:
+
+```bash
+source venv/bin/activate
+gunicorn -w 4 -b 0.0.0.0:8720 app:app
+```
+## Probar la API:
+Puedes probar la API utilizando curl o Postman:
+
+```bash
+curl http://<server-ip>:8720/probabilidad_caza
+```
+Esto debería devolver un JSON con las probabilidades de caza para cada zona.
+
+```bash
+{
+  "response": [
+    {
+      "Zona": "Zone 1 - Marble/Clipper Mountains",
+      "Porcentaje_Probabilidad_Caza": 5.91
+    },
+    {
+      "Zona": "Zone 10 - Newberry, Rodman and Ord Mountains",
+      "Porcentaje_Probabilidad_Caza": 9.85
+    },
+    {
+      "Zona": "Zone 2 - Kelso Peak/Old Dad Mountains",
+      "Porcentaje_Probabilidad_Caza": 12.57
+    },
+    {
+      "Zona": "Zone 3 - Clark/Kingston Mountain Ranges",
+      "Porcentaje_Probabilidad_Caza": 22.43
+    },
+    ...
+  ]
+}
+```
+
+# Aplicación Flutter
+
+Se encuentra alojada en este repositorio
+
