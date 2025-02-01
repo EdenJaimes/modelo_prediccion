@@ -156,7 +156,4 @@ Esto debería devolver un JSON con las probabilidades de caza para cada zona.
 }
 ```
 
-# Aplicación Flutter
-
-Se encuentra alojada en este repositorio
 
